@@ -3,7 +3,7 @@ const router = express.Router()
 
 // require physician model
 const Physician = require('./../models/physician')
-const handle404 = require('./../lib/customErrors')
+const handle404 = require('./../../lib/custom_errors')
 
 // CREATE
 // POST /appointments/
